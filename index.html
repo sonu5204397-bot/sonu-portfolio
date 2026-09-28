@@ -1,0 +1,727 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Sonu Yadav | Cybersecurity | Pentesting | VAPT</title>
+  <meta name="description" content="Professional cybersecurity portfolio of Sonu Yadav, showcasing cybersecurity learning, penetration testing, VAPT, Linux, networking, web security, projects, certifications, and hands-on security practice." />
+  <meta name="keywords" content="Sonu Yadav, cybersecurity, pentesting, VAPT, ethical hacking, vulnerability assessment, web security, Linux, networking" />
+  <meta name="author" content="Sonu Yadav" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Sonu Yadav | Cybersecurity | Pentesting | VAPT" />
+  <meta property="og:description" content="Professional cybersecurity portfolio of Sonu Yadav." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/profile.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sonu Yadav | Cybersecurity | Pentesting | VAPT" />
+  <meta name="twitter:description" content="Cybersecurity-focused student developing practical skills." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=2" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230a0f1e'/><text y='68' x='50' text-anchor='middle' font-size='52' font-weight='900' fill='%2300d4ff' font-family='Inter,sans-serif'>SY</text></svg>" />
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header class="nav-header" role="banner">
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Sonu Yadav Home">
+        <span class="logo-badge">SY</span>
+        <span class="logo-text">Sonu Yadav</span>
+      </a>
+      <ul class="nav-links" role="list" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#journey" class="nav-link">Journey</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+        <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main role="main">
+
+<!-- HERO -->
+<section id="home" class="hero-section" aria-label="Hero Introduction">
+  <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-grid-overlay" aria-hidden="true"></div>
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot" aria-hidden="true"></span>
+        <span>Available for Internships &amp; Opportunities</span>
+      </div>
+      <h1 class="hero-title"><span class="hero-name">Sonu Yadav</span></h1>
+      <p class="hero-subtitle">
+        <span class="typed-text" id="typed-text" aria-label="Cybersecurity Enthusiast | Pentesting | VAPT | Ethical Hacking"></span>
+        <span class="cursor" aria-hidden="true">|</span>
+      </p>
+      <p class="hero-description">
+        Cybersecurity student passionate about penetration testing, vulnerability assessment, Linux, networking, and web application security. I enjoy learning through hands-on labs, security tools, and practical projects.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary btn-hero">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 20h20M17 4l-5 5-4-4-6 6"/></svg>
+          View My Projects
+        </a>
+        <a href="assets/resume/resume.pdf" class="btn btn-outline btn-hero" download aria-label="Download Resume">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Download Resume
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/sonu-yadav-489893413" target="_blank" rel="noopener noreferrer" class="social-btn linkedin" aria-label="LinkedIn profile of Sonu Yadav">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+       <a href="https://github.com/sonu5204397-bot"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="social-btn github"
+   aria-label="Visit Sonu Yadav GitHub profile"
+   title="Visit my GitHub profile">
+
+    <svg width="18"
+         height="18"
+         viewBox="0 0 24 24"
+         fill="currentColor"
+         aria-hidden="true">
+
+        <path d="M12 .297c-6.63 0-12 5.373-12 12
+        0 5.303 3.438 9.8 8.205 11.385
+        .6.113.82-.258.82-.577
+        0-.285-.01-1.04-.015-2.04
+        -3.338.724-4.042-1.61-4.042-1.61
+        C4.422 18.07 3.633 17.7 3.633 17.7
+        c-1.087-.744.084-.729.084-.729
+        1.205.084 1.838 1.236 1.838 1.236
+        1.07 1.835 2.809 1.305 3.495.998
+        .108-.776.417-1.305.76-1.605
+        -2.665-.3-5.466-1.332-5.466-5.93
+        0-1.31.465-2.38 1.235-3.22
+        -.135-.303-.54-1.523.105-3.176
+        0 0 1.005-.322 3.3 1.23
+        .96-.267 1.98-.399 3-.405
+        1.02.006 2.04.138 3 .405
+        2.28-1.552 3.285-1.23 3.285-1.23
+        .645 1.653.24 2.873.12 3.176
+        .765.84 1.23 1.91 1.23 3.22
+        0 4.61-2.805 5.625-5.475 5.92
+        .42.36.81 1.096.81 2.22
+        0 1.606-.015 2.896-.015 3.286
+        0 .315.21.69.825.57
+        C20.565 22.092 24 17.592 24 12.297
+        c0-6.627-5.373-12-12-12"/>
+
+    </svg>
+
+    GitHub
+
+</a>
+      </div>
+    </div>
+    <div class="hero-image-wrapper">
+      <!-- Radar Pulse Waves -->
+      <div class="radar-pulse pulse-1" aria-hidden="true"></div>
+      <div class="radar-pulse pulse-2" aria-hidden="true"></div>
+      <div class="radar-pulse pulse-3" aria-hidden="true"></div>
+
+      <!-- Outer Tech Orbit HUD Frame -->
+      <div class="hero-image-frame" aria-hidden="true">
+        <div class="frame-ring ring-outer-tech"></div>
+        <div class="frame-ring ring-1">
+          <span class="orbit-node node-cyan"></span>
+        </div>
+        <div class="frame-ring ring-2">
+          <span class="orbit-node node-red"></span>
+        </div>
+        <div class="frame-ring ring-3">
+          <span class="orbit-node node-blue"></span>
+        </div>
+        <!-- Cardinal HUD ticks -->
+        <div class="hud-tick tick-t"></div>
+        <div class="hud-tick tick-b"></div>
+        <div class="hud-tick tick-l"></div>
+        <div class="hud-tick tick-r"></div>
+      </div>
+
+      <!-- Glowing Neon Conic Ring around Avatar -->
+      <div class="avatar-neon-ring" aria-hidden="true"></div>
+
+      <!-- Circular Avatar Container -->
+      <div class="hero-image-container">
+        <div class="scan-line" aria-hidden="true"></div>
+        <div class="circle-vignette" aria-hidden="true"></div>
+        <img src="assets/images/profile.jpg" alt="Sonu Yadav — Cybersecurity Enthusiast, BCA Student" class="hero-profile-img" loading="eager" id="profile-img" />
+        <div class="profile-placeholder" id="profile-placeholder" aria-hidden="true">
+          <span class="placeholder-initials">SY</span>
+          <p>Add profile.jpg to<br>assets/images/</p>
+        </div>
+      </div>
+
+      <!-- Floating Tech Badges around the Circle -->
+      <div class="hero-image-tags" aria-hidden="true">
+        <div class="img-tag tag-top">
+          <span class="tag-status-dot"></span>
+          Cybersecurity Student
+        </div>
+        <div class="img-tag tag-bottom">
+          <span class="tag-terminal-icon">&gt;_</span>
+          Pentesting &amp; VAPT
+        </div>
+        <div class="img-tag tag-telemetry">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator" aria-hidden="true"><div class="scroll-arrow"></div></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about-section" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="section-header">
+      
+      <h2 class="section-title" id="about-heading">About Me</h2>
+      <p class="section-subtitle">Developing practical cybersecurity skills through hands-on learning</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-text fade-in">
+        <p class="about-para">I am a cybersecurity-focused student developing practical knowledge in penetration testing, vulnerability assessment, Linux, networking, and web security.</p>
+        <p class="about-para">My learning approach is strongly hands-on. I practice security concepts through controlled labs, cybersecurity platforms, Linux environments, networking exercises, and web security testing.</p>
+        <p class="about-para">My current career direction is focused on cybersecurity, particularly penetration testing, VAPT, and ethical hacking. I am actively building my skill set through real tools, real labs, and continuous self-improvement.</p>
+        <div class="about-actions">
+          <a href="#skills" class="btn btn-outline btn-sm">Explore My Skills</a>
+          <a href="#certifications" class="btn btn-ghost btn-sm">View Certifications</a>
+        </div>
+      </div>
+      <div class="about-cards fade-in">
+        <div class="info-card">
+          <div class="info-card-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div><div class="info-card-label">Focus</div><div class="info-card-value">Cybersecurity</div></div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+          <div><div class="info-card-label">Specialization</div><div class="info-card-value">Pentesting &amp; VAPT</div></div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg></div>
+          <div><div class="info-card-label">Learning</div><div class="info-card-value">Hands-on Security Labs</div></div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+          <div><div class="info-card-label">Goal</div><div class="info-card-value">Cybersecurity Career</div></div>
+        </div>
+        <div class="education-mini-card">
+          <div class="edu-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+          <div class="edu-details">
+            <div class="edu-degree">Bachelor of Computer Applications (BCA)</div>
+            <div class="edu-institution">Maharishi University of Information Technology, Lucknow</div>
+            <div class="edu-period">2025 – 2028 <span class="edu-badge">Ongoing</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section skills-section" aria-labelledby="skills-heading">
+  <div class="container">
+    <div class="section-header">
+      <!-- <span class="section-tag">// skills.map</span> -->
+      <h2 class="section-title" id="skills-heading">Skills &amp; Learning Areas</h2>
+      <p class="section-subtitle">Technologies and concepts I am actively developing through hands-on practice</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category fade-in">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3 class="skill-cat-title">Cybersecurity</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Penetration Testing</span><span class="skill-tag">Vulnerability Assessment</span><span class="skill-tag">Web Application Security</span><span class="skill-tag">OWASP Concepts</span><span class="skill-tag">Security Testing</span><span class="skill-tag">Reconnaissance</span><span class="skill-tag">OSINT Fundamentals</span>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3 class="skill-cat-title">Security Tools</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag accent-cyan">Nmap</span><span class="skill-tag accent-cyan">Burp Suite</span><span class="skill-tag accent-cyan">Wireshark</span><span class="skill-tag accent-cyan">Nuclei</span><span class="skill-tag accent-cyan">ffuf</span><span class="skill-tag accent-cyan">Amass</span><span class="skill-tag accent-cyan">Nikto</span><span class="skill-tag accent-cyan">ExifTool</span><span class="skill-tag accent-cyan">Shodan</span><span class="skill-tag accent-cyan">Sherlock</span><span class="skill-tag accent-cyan">Metasploit</span><span class="skill-tag accent-cyan">HTTPX</span><span class="skill-tag accent-cyan">SQLMMap</span>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="8" height="8" rx="1"/><rect x="14" y="2" width="8" height="8" rx="1"/><rect x="8" y="14" width="8" height="8" rx="1"/><path d="M6 10v4M18 10v4M6 14h12"/></svg></div>
+          <h3 class="skill-cat-title">Networking</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">TCP/IP</span><span class="skill-tag">OSI Model</span><span class="skill-tag">DNS</span><span class="skill-tag">HTTP/HTTPS</span><span class="skill-tag">IPv4</span><span class="skill-tag">IPv6</span><span class="skill-tag">ARP</span><span class="skill-tag">Network Reconnaissance</span>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+          <h3 class="skill-cat-title">Operating Systems</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag accent-red">Linux</span><span class="skill-tag accent-red">Kali Linux</span><span class="skill-tag accent-red">Windows</span><span class="skill-tag accent-red">Command Line</span>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
+          <h3 class="skill-cat-title">Web Security Concepts</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">XSS</span><span class="skill-tag">CSRF</span><span class="skill-tag">SQL Injection Concepts</span><span class="skill-tag">IDOR</span><span class="skill-tag">CORS</span><span class="skill-tag">Same-Origin Policy</span><span class="skill-tag">HTTP Security Headers</span><span class="skill-tag">TLS/HTTPS</span><span class="skill-tag">CSP</span><span class="skill-tag">Authentication Concepts</span>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <h3 class="skill-cat-title">Programming &amp; Web</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag accent-blue">HTML</span><span class="skill-tag accent-blue">CSS</span><span class="skill-tag accent-blue">JavaScript</span><span class="skill-tag accent-blue">Java</span><span class="skill-tag accent-blue">C</span>  <span class="skill-tag accent-blue">SQL</span>  <span class="skill-tag accent-blue">PYTHON</span>
+        </div>
+      </div>
+    </div>
+    <p class="skills-disclaimer">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      These represent my active learning areas. I am continuously developing these skills through hands-on practice.
+    </p>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section id="tools" class="section tools-section" aria-labelledby="tools-heading">
+  <div class="container">
+    <div class="section-header">
+     
+      <h2 class="section-title" id="tools-heading">Tools I Work With</h2>
+      <p class="section-subtitle">Security tools I am actively learning and practicing with in lab environments</p>
+    </div>
+    <div class="tools-grid">
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon nmap" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="3"/></svg></div><div class="tool-name">Nmap</div><div class="tool-purpose">Network discovery &amp; port scanning</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon burp" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12c0 1.2-.4 2.3-1 3.2M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9"/><circle cx="12" cy="12" r="3"/><path d="M12 3v2M12 19v2M3 12H1M23 12h-2"/></svg></div><div class="tool-name">Burp Suite</div><div class="tool-purpose">Web application security testing</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon wireshark" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12h20M2 6h20M2 18h20"/><path d="M6 6v12M12 6v12M18 6v12"/></svg></div><div class="tool-name">Wireshark</div><div class="tool-purpose">Network traffic analysis &amp; capture</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon nuclei" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div><div class="tool-name">Nuclei</div><div class="tool-purpose">Vulnerability scanning with templates</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon ffuf" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8M12 8v8"/></svg></div><div class="tool-name">ffuf</div><div class="tool-purpose">Web fuzzing &amp; directory discovery</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon amass" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 000 20"/><path d="M2 12h20"/><path d="M12 2c2.5 3 4 6.5 4 10s-1.5 7-4 10"/></svg></div><div class="tool-name">Amass</div><div class="tool-purpose">Subdomain enumeration &amp; OSINT</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon nikto" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 9l-2 7 5-4 5 4-2-7M12 3L2 20h20L12 3z"/></svg></div><div class="tool-name">Nikto</div><div class="tool-purpose">Web server vulnerability scanner</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon metasploit" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><div class="tool-name">Metasploit</div><div class="tool-purpose">Penetration testing framework</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon shodan" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div><div class="tool-name">Shodan</div><div class="tool-purpose">Internet-wide device search engine</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon sherlock" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div><div class="tool-name">Sherlock</div><div class="tool-purpose">Username OSINT across platforms</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon exiftool" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg></div><div class="tool-name">ExifTool</div><div class="tool-purpose">Metadata extraction &amp; analysis</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon kali" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><div class="tool-name">Kali Linux</div><div class="tool-purpose">Penetration testing OS platform</div></div>
+      <div class="tool-card fade-in" tabindex="0"><div class="tool-icon kali" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><div class="tool-name">Kali Linux</div><div class="tool-purpose">SQLMAP</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section projects-section" aria-labelledby="projects-heading">
+  <div class="container">
+    <div class="section-header">
+   
+      <h2 class="section-title" id="projects-heading"> Hands-on Labs /TRYHACKME AND COURSE LAB</h2>
+      <p class="section-subtitle">Practical work in controlled lab environments and authorized platforms</p>
+    </div>
+    <div class="project-filters" role="group" aria-label="Filter projects">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Security</button>
+      <button class="filter-btn" data-filter="network">Network</button>
+      <button class="filter-btn" data-filter="recon">Recon &amp; OSINT</button>
+      <button class="filter-btn" data-filter="linux">Linux</button>
+    </div>
+    <div class="projects-grid" id="projects-grid">
+      <article class="project-card fade-in" data-category="web" tabindex="0">
+        <div class="project-card-header"><div class="project-type-badge web">Web Security Lab</div><span class="link-coming-soon">.....</span></div>
+        <h3 class="project-title">XSS &amp; CSRF Security Labs</h3>
+        <p class="project-desc">Practiced identifying and understanding Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF) vulnerabilities in controlled web application lab environments.</p>
+        <div class="project-tech"><span class="tech-tag">Burp Suite</span><span class="tech-tag">OWASP</span><span class="tech-tag">JavaScript</span><span class="tech-tag">HTTP</span></div>
+        <div class="project-learned"><span class="learned-label">What I Learned: </span><span class="learned-text">XSS attack vectors, CSRF token bypass techniques, input validation, and browser security policies</span></div>
+      </article>
+      <article class="project-card fade-in" data-category="network" tabindex="0">
+        <div class="project-card-header"><div class="project-type-badge network">Network Security Lab</div><span class="link-coming-soon">....</span></div>
+        <h3 class="project-title">Network Reconnaissance with Nmap</h3>
+        <p class="project-desc">Performed comprehensive network scanning, port discovery, service enumeration, and OS fingerprinting in authorized lab environments using Nmap.</p>
+        <div class="project-tech"><span class="tech-tag">Nmap</span><span class="tech-tag">TCP/IP</span><span class="tech-tag">Linux</span><span class="tech-tag">Networking</span></div>
+        <div class="project-learned"><span class="learned-label">What I Learned: </span><span class="learned-text">Network scanning techniques, port states, service fingerprinting, and stealth scan methods</span></div>
+      </article>
+      <article class="project-card fade-in" data-category="recon" tabindex="0">
+        <div class="project-card-header"><div class="project-type-badge recon">Recon &amp; OSINT</div><span class="link-coming-soon">.....</span></div>
+        <h3 class="project-title">Passive Subdomain Enumeration</h3>
+        <p class="project-desc">Used Amass and Shodan to perform passive subdomain enumeration and OSINT reconnaissance on authorized targets, practicing information gathering without direct interaction.</p>
+        <div class="project-tech"><span class="tech-tag">Amass</span><span class="tech-tag">Shodan</span><span class="tech-tag">Sherlock</span><span class="tech-tag">OSINT</span></div>
+        <div class="project-learned"><span class="learned-label">What I Learned: </span><span class="learned-text">Passive reconnaissance techniques, DNS enumeration, certificate transparency logs, and OSINT methodology</span></div>
+      </article>
+      <article class="project-card fade-in" data-category="web" tabindex="0">
+        <div class="project-card-header"><div class="project-type-badge web">Web Security Lab</div><span class="link-coming-soon">.....</span></div>
+        <h3 class="project-title">Directory &amp; Endpoint Discovery with ffuf</h3>
+        <p class="project-desc">Practiced web fuzzing techniques to discover hidden directories, endpoints, and files on authorized web application lab environments using ffuf.</p>
+        <div class="project-tech"><span class="tech-tag">ffuf</span><span class="tech-tag">Burp Suite</span><span class="tech-tag">HTTP</span><span class="tech-tag">Linux</span></div>
+        <div class="project-learned"><span class="learned-label">What I Learned: </span><span class="learned-text">Web fuzzing methodology, wordlist strategies, response filtering, and directory traversal concepts</span></div>
+      </article>
+      <article class="project-card fade-in" data-category="web" tabindex="0">
+        <div class="project-card-header"><div class="project-type-badge vuln">Vulnerability Assessment</div><span class="link-coming-soon">.....</span></div>
+        <h3 class="project-title">HTTP Traffic Analysis with Wireshark</h3>
+        <p class="project-desc">Captured and analyzed HTTP/HTTPS traffic using Wireshark to understand network protocols, identify unencrypted data transmission, and study network security patterns.</p>
+        <div class="project-tech"><span class="tech-tag">Wireshark</span><span class="tech-tag">HTTP/HTTPS</span><span class="tech-tag">TCP/IP</span><span class="tech-tag">DNS</span></div>
+        <div class="project-learned"><span class="learned-label">What I Learned: </span><span class="learned-text">Protocol analysis, packet filtering, traffic dissection, and identifying security misconfigurations in network traffic</span></div>
+      </article>
+      <article class="project-card fade-in" data-category="linux" tabindex="0">
+        <div class="project-card-header"><div class="project-type-badge linux">Linux &amp; Security Labs</div><span class="link-coming-soon">.....</span></div>
+        <h3 class="project-title">Linux Security &amp; Command-Line Practice</h3>
+        <p class="project-desc">Practiced Linux system administration, Bash scripting, file permissions, process management, and security-relevant command-line operations in Kali Linux environments.</p>
+        <div class="project-tech"><span class="tech-tag">Kali Linux</span><span class="tech-tag">Bash</span><span class="tech-tag">Linux</span><span class="tech-tag">Command Line</span></div>
+        <div class="project-learned"><span class="learned-label">What I Learned: </span><span class="learned-text">Linux file system, user permissions, process management, Bash scripting, and security tool usage in Linux</span></div>
+      </article>
+    </div>
+    <div class="projects-note">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      All lab work is performed in authorized environments, controlled lab setups, and permitted platforms only.
+    </div>
+  </div>
+</section>
+
+<!-- HANDS-ON PRACTICE -->
+<section id="practice" class="section practice-section" aria-labelledby="practice-heading">
+  <div class="container">
+    <div class="section-header">
+      
+      <h2 class="section-title" id="practice-heading">Hands-on Cybersecurity Practice</h2>
+      <p class="section-subtitle">Real tools. Real labs. Practical security skills.</p>
+    </div>
+    <div class="practice-grid">
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="3"/></svg></div><h3 class="practice-title">Nmap Reconnaissance</h3><p class="practice-desc">Port scanning, service enumeration, OS fingerprinting in authorized lab networks</p><span class="practice-tool">Nmap · Linux</span></div>
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 000 20"/><path d="M2 12h20"/></svg></div><h3 class="practice-title">Passive Subdomain Enumeration</h3><p class="practice-desc">Using Amass for passive subdomain discovery without direct target interaction</p><span class="practice-tool">Amass · OSINT</span></div>
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8M12 8v8"/></svg></div><h3 class="practice-title">Directory Discovery with ffuf</h3><p class="practice-desc">Web fuzzing to uncover hidden endpoints and directories in lab applications</p><span class="practice-tool">ffuf · Burp Suite</span></div>
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12c0 1.2-.4 2.3-1 3.2M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9"/><circle cx="12" cy="12" r="3"/></svg></div><h3 class="practice-title">Web Testing with Burp Suite</h3><p class="practice-desc">Intercepting, analyzing, and manipulating HTTP requests in lab environments</p><span class="practice-tool">Burp Suite · HTTP</span></div>
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h20M2 6h20M2 18h20"/></svg></div><h3 class="practice-title">HTTP Traffic Analysis</h3><p class="practice-desc">Capturing and analyzing network packets to understand protocol behavior and security</p><span class="practice-tool">Wireshark · TCP/IP</span></div>
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div><h3 class="practice-title">Vulnerability Scanning with Nuclei</h3><p class="practice-desc">Template-based vulnerability scanning against authorized lab targets</p><span class="practice-tool">Nuclei · YAML Templates</span></div>
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h3 class="practice-title">DNS &amp; ARP Security Concepts</h3><p class="practice-desc">Studying DNS resolution, ARP protocols, and common attack vectors at the network layer</p><span class="practice-tool">Wireshark · Networking</span></div>
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div><h3 class="practice-title">XSS &amp; CSRF Security Labs</h3><p class="practice-desc">Practicing XSS injection techniques and CSRF attack flows in controlled web app labs</p><span class="practice-tool">Burp Suite · JavaScript</span></div>
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div><h3 class="practice-title">JWT Security Concepts</h3><p class="practice-desc">Understanding JSON Web Token structure, vulnerabilities, and authentication security patterns</p><span class="practice-tool">Burp Suite · HTTP</span></div>
+      <div class="practice-card fade-in"><div class="practice-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3 class="practice-title">Linux Security &amp; CLI Practice</h3><p class="practice-desc">File permissions, process control, Bash scripting, and security tools in Kali Linux</p><span class="practice-tool">Kali Linux · Bash</span></div>
+    </div>
+    <div class="practice-disclaimer">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      All security testing shown here is performed in authorized labs, learning environments, or systems where testing is permitted.
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section cert-section" aria-labelledby="cert-heading">
+  <div class="container">
+    <div class="section-header">
+      
+      <h2 class="section-title" id="cert-heading">Certifications &amp; Credentials</h2>
+      <p class="section-subtitle">Verified learning achievements in cybersecurity and related fields</p>
+    </div>
+    <div class="cert-stats">
+      <div class="cert-stat"><div class="cert-stat-number">04<span>+</span></div><div class="cert-stat-label">Completion Certificates Earned</div></div>
+      <div class="cert-stat-divider" aria-hidden="true"></div>
+      <div class="cert-stat"><div class="cert-stat-number">100<span>%</span></div><div class="cert-stat-label">Cybersecurity Focused Learning</div></div>
+      <div class="cert-stat-divider" aria-hidden="true"></div>
+      <div class="cert-stat"><div class="cert-stat-number">2026</div><div class="cert-stat-label">Active Learning Year</div></div>
+    </div>
+    <div class="certs-grid">
+      <article class="cert-card fade-in" tabindex="0">
+        <div class="cert-preview" role="button" aria-label="View Tutedude Cyber Security Certificate" onclick="openCertViewer(0)">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/certificates/tutedude-cyber-security.png" alt="Tutedude Cyber Security Course Certificate — Sonu Yadav, completed 16 August 2026, ID TD-SONU-CS-1301" class="cert-image" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.cert-placeholder').style.display='flex'" />
+            <div class="cert-placeholder" style="display:none"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M8 21l4-4 4 4"/></svg><p>tutedude-cyber-security.png</p></div>
+            <div class="cert-overlay"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>View Certificate</div>
+          </div>
+        </div>
+        <div class="cert-info">
+          <h3 class="cert-title">Cyber Security Course</h3>
+          <div class="cert-org">Tutedude</div>
+          <div class="cert-meta"><span>Completed: 16 August 2026</span><span>ID: TD-SONU-CS-1301</span></div>
+          <button class="btn btn-cert" onclick="openCertViewer(0)">View Certificate</button>
+        </div>
+      </article>
+      <article class="cert-card fade-in" tabindex="0">
+        <div class="cert-preview" role="button" aria-label="View Tutedude Linux Certificate" onclick="openCertViewer(1)">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/certificates/tutedude-linux.png" alt="Tutedude Linux Course Certificate — Sonu Yadav, completed 13 September 2026, ID TD-SONU-LN-1608" class="cert-image" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.cert-placeholder').style.display='flex'" />
+            <div class="cert-placeholder" style="display:none"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M8 21l4-4 4 4"/></svg><p>tutedude-linux.png</p></div>
+            <div class="cert-overlay"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>View Certificate</div>
+          </div>
+        </div>
+        <div class="cert-info">
+          <h3 class="cert-title">Linux Course</h3>
+          <div class="cert-org">Tutedude</div>
+          <div class="cert-meta"><span>Completed: 13 September 2026</span><span>ID: TD-SONU-LN-1608</span></div>
+          <button class="btn btn-cert" onclick="openCertViewer(1)">View Certificate</button>
+        </div>
+      </article>
+      <article class="cert-card fade-in" tabindex="0">
+        <div class="cert-preview" role="button" aria-label="View Simplilearn Cyber Security Certificate" onclick="openCertViewer(2)">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/certificates/simplilearn-cyber-security.png" alt="Simplilearn SkillUp Introduction to Cyber Security Certificate — Sonu Yadav, completed 4 September 2026, Code 10689960" class="cert-image" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.cert-placeholder').style.display='flex'" />
+            <div class="cert-placeholder" style="display:none"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M8 21l4-4 4 4"/></svg><p>simplilearn-cyber-security.png</p></div>
+            <div class="cert-overlay"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>View Certificate</div>
+          </div>
+        </div>
+        <div class="cert-info">
+          <h3 class="cert-title">Introduction to Cyber Security</h3>
+          <div class="cert-org">Simplilearn / SkillUp</div>
+          <div class="cert-meta"><span>Completed: 4 September 2026</span><span>Code: 10689960</span></div>
+          <button class="btn btn-cert" onclick="openCertViewer(2)">View Certificate</button>
+        </div>
+      </article>
+      <article class="cert-card fade-in" tabindex="0">
+        <div class="cert-preview" role="button" aria-label="View Unified Mentor Certificate" onclick="openCertViewer(3)">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/certificates/unified-mentor-cyber-security.png" alt="Unified Mentor Cyber Security Professional Certificate — Sonu Yadav, completed 25 August 2026" class="cert-image" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.cert-placeholder').style.display='flex'" />
+            <div class="cert-placeholder" style="display:none"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M8 21l4-4 4 4"/></svg><p>unified-mentor-cyber-security.png</p></div>
+            <div class="cert-overlay"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>View Certificate</div>
+          </div>
+        </div>
+      
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- LEARNING JOURNEY -->
+<section id="journey" class="section journey-section" aria-labelledby="journey-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">// journey.log</span>
+      <h2 class="section-title" id="journey-heading">My Cybersecurity Learning Journey</h2>
+      <p class="section-subtitle">A structured path through cybersecurity fundamentals to advanced practice</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item fade-in" tabindex="0">
+        <div class="timeline-connector" aria-hidden="true"><div class="timeline-node node-1"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div></div>
+        <div class="timeline-content"><div class="timeline-step">Step 01</div><h3 class="timeline-title">Cybersecurity Fundamentals</h3><p class="timeline-desc">Core security concepts, CIA triad, threat landscape, attack vectors, and basic security principles</p><div class="timeline-tags"><span>Tutedude Cyber Security</span><span>Simplilearn</span></div></div>
+      </div>
+      <div class="timeline-item fade-in" tabindex="0">
+        <div class="timeline-connector" aria-hidden="true"><div class="timeline-node node-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div></div>
+        <div class="timeline-content"><div class="timeline-step">Step 02</div><h3 class="timeline-title">Linux &amp; Command Line</h3><p class="timeline-desc">Linux file system, user management, permissions, Bash scripting, and command-line proficiency in security contexts</p><div class="timeline-tags"><span>Tutedude Linux Course</span><span>Kali Linux</span></div></div>
+      </div>
+      <div class="timeline-item fade-in" tabindex="0">
+        <div class="timeline-connector" aria-hidden="true"><div class="timeline-node node-3"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="2" width="8" height="8" rx="1"/><rect x="14" y="2" width="8" height="8" rx="1"/><rect x="8" y="14" width="8" height="8" rx="1"/><path d="M6 10v4M18 10v4M6 14h12"/></svg></div></div>
+        <div class="timeline-content"><div class="timeline-step">Step 03</div><h3 class="timeline-title">Networking Fundamentals</h3><p class="timeline-desc">TCP/IP stack, OSI model, DNS, HTTP/HTTPS, ARP, IPv4/IPv6, and network security principles</p><div class="timeline-tags"><span>TCP/IP</span><span>OSI Model</span><span>Wireshark</span></div></div>
+      </div>
+      <div class="timeline-item fade-in" tabindex="0">
+        <div class="timeline-connector" aria-hidden="true"><div class="timeline-node node-4"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div></div>
+        <div class="timeline-content"><div class="timeline-step">Step 04</div><h3 class="timeline-title">Reconnaissance &amp; OSINT</h3><p class="timeline-desc">Information gathering using passive and active techniques, subdomain enumeration, and OSINT methodology</p><div class="timeline-tags"><span>Nmap</span><span>Amass</span><span>Shodan</span><span>Sherlock</span></div></div>
+      </div>
+      <div class="timeline-item fade-in" tabindex="0">
+        <div class="timeline-connector" aria-hidden="true"><div class="timeline-node node-5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div></div>
+        <div class="timeline-content"><div class="timeline-step">Step 05</div><h3 class="timeline-title">Web Security</h3><p class="timeline-desc">OWASP Top 10 concepts, XSS, CSRF, SQL Injection, IDOR, CORS, authentication vulnerabilities, and HTTP security</p><div class="timeline-tags"><span>OWASP</span><span>XSS</span><span>CSRF</span><span>IDOR</span></div></div>
+      </div>
+      <div class="timeline-item fade-in" tabindex="0">
+        <div class="timeline-connector" aria-hidden="true"><div class="timeline-node node-6"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12c0 1.2-.4 2.3-1 3.2M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9"/><circle cx="12" cy="12" r="3"/></svg></div></div>
+        <div class="timeline-content"><div class="timeline-step">Step 06</div><h3 class="timeline-title">Burp Suite &amp; Web Testing</h3><p class="timeline-desc">HTTP interception, request manipulation, web application fuzzing, and hands-on web security testing</p><div class="timeline-tags"><span>Burp Suite</span><span>ffuf</span><span>Nikto</span></div></div>
+      </div>
+      <div class="timeline-item fade-in" tabindex="0">
+        <div class="timeline-connector" aria-hidden="true"><div class="timeline-node node-7"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div></div>
+        <div class="timeline-content"><div class="timeline-step">Step 07</div><h3 class="timeline-title">Vulnerability Assessment</h3><p class="timeline-desc">Systematic vulnerability identification using automated scanners and manual testing techniques</p><div class="timeline-tags"><span>Nuclei</span><span>Nikto</span><span>VAPT Methodology</span></div></div>
+      </div>
+      <div class="timeline-item fade-in" tabindex="0">
+        <div class="timeline-connector" aria-hidden="true"><div class="timeline-node node-8"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div></div>
+        <div class="timeline-content"><div class="timeline-step">Step 08</div><h3 class="timeline-title">Pentesting &amp; VAPT</h3><p class="timeline-desc">Applying penetration testing methodology, Metasploit framework, and structured VAPT approaches in authorized lab environments</p><div class="timeline-tags"><span>Metasploit</span><span>Pentesting</span><span>VAPT</span><span>Ethical Hacking</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="section resume-section" aria-labelledby="resume-heading">
+  <div class="container">
+    <div class="section-header">
+    
+      <h2 class="section-title" id="resume-heading">Resume</h2>
+      <p class="section-subtitle">Interested in my cybersecurity journey and technical skills?</p>
+    </div>
+    <div class="resume-card">
+      <div class="resume-icon" aria-hidden="true"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+      <div class="resume-info">
+        <h3>Sonu Yadav — Cybersecurity Resume</h3>
+
+      </div>
+      <div class="resume-actions">
+        <a href="assets/resume/resume.pdf" class="btn btn-primary" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>View Resume</a>
+        <a href="assets/resume/resume.pdf" class="btn btn-outline" download><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Download Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="section-header">
+      
+      <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+      <p class="section-subtitle">Open to cybersecurity internships, collaborations, and professional networking</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info fade-in">
+        <h3 class="contact-info-title">Get In Touch</h3>
+        <p class="contact-info-text">I am actively looking for cybersecurity internship opportunities, hands-on project collaborations, and professional networking in the cybersecurity space. Feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/sonu-yadav-489893413" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="LinkedIn profile">
+            <div class="contact-link-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
+            <div class="contact-link-text"><div class="contact-link-label">LinkedIn</div><div class="contact-link-value">Sonu Yadav</div></div>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="contact-link-arrow" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+          <div class="contact-link">
+    <a href="https://github.com/sonu5204397-bot"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="contact-link-github"
+       aria-label="GitHub profile">
+
+        <div class="contact-link-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+        </div>
+
+        <div class="contact-link-text">
+            <div class="contact-link-label">GitHub</div>
+            <div class="contact-link-value">Sonu Yadav</div>
+        </div>
+
+    </a>
+</div>
+         <a href="mailto:sonu5204397@gmail.com" class="contact-link">
+    <div class="contact-link-icon" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2-2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+        </svg>
+    </div>
+
+    <div class="contact-link-text">
+        <div class="contact-link-label">Email</div>
+        <div class="contact-link-value">sonu5204397@gmail.com</div>
+    </div>
+</a>
+        </div>
+      </div>
+      <div class="contact-form-wrapper fade-in">
+        <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+         
+          <div class="form-group">
+            <label for="contact-name" class="form-label">Full Name</label>
+            <input type="text" id="contact-name" name="name" class="form-input" placeholder="Your full name" required autocomplete="name" />
+            <span class="form-error" id="name-error" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-email" class="form-label">Email Address</label>
+            <input type="email" id="contact-email" name="email" class="form-input" placeholder="your@email.com" required autocomplete="email" />
+            <span class="form-error" id="email-error" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-message" class="form-label">Message</label>
+            <textarea id="contact-message" name="message" class="form-input form-textarea" placeholder="Tell me about your opportunity or what you'd like to discuss..." required rows="5"></textarea>
+            <span class="form-error" id="message-error" role="alert"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="form-submit">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Send Message
+          </button>
+          <div class="form-success" id="form-success" role="status" aria-live="polite" hidden>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo" aria-label="Sonu Yadav Home"><span class="logo-badge">SY</span><span class="logo-text">Sonu Yadav</span></a>
+        <p class="footer-tagline">Cybersecurity Enthusiast | Pentesting | VAPT</p>
+        <p class="footer-bio">Developing practical cybersecurity skills through hands-on learning, labs, and continuous self-improvement.</p>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/sonu-yadav-489893413" target="_blank" rel="noopener noreferrer" class="footer-social" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <button class="footer-social placeholder-btn" aria-label="GitHub coming soon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></button>
+        </div>
+      </div>
+      <div class="footer-links-group">
+        <h4 class="footer-links-title">Quick Links</h4>
+        <ul class="footer-links-list" role="list">
+          <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#certifications">Certifications</a></li><li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h4 class="footer-links-title">Learning Areas</h4>
+        <ul class="footer-links-list" role="list">
+          <li><a href="#skills">Penetration Testing</a></li><li><a href="#skills">VAPT</a></li><li><a href="#skills">Web Security</a></li><li><a href="#skills">Linux</a></li><li><a href="#skills">Networking</a></li><li><a href="#journey">Learning Journey</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; 2026 Sonu Yadav. All rights reserved.</p>
+      <p class="footer-credit">Built with dedication to cybersecurity learning</p>
+    </div>
+  </div>
+</footer>
+
+<!-- CERTIFICATE LIGHTBOX -->
+<div class="cert-lightbox" id="cert-lightbox" role="dialog" aria-modal="true" aria-label="Certificate viewer" hidden>
+  <div class="lightbox-backdrop" id="lightbox-backdrop" aria-hidden="true"></div>
+  <div class="lightbox-container">
+    <div class="lightbox-header">
+      <div class="lightbox-title-group">
+        <h3 class="lightbox-title" id="lightbox-title">Certificate</h3>
+        <p class="lightbox-org" id="lightbox-org"></p>
+      </div>
+      <div class="lightbox-controls">
+        <button class="lightbox-btn zoom-btn" id="zoom-btn" aria-label="Toggle zoom"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></button>
+        <button class="lightbox-btn" id="lightbox-close" aria-label="Close certificate viewer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+      </div>
+    </div>
+    <div class="lightbox-image-area" id="lightbox-image-area">
+      <button class="lightbox-nav prev-btn" id="prev-btn" aria-label="Previous certificate"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <div class="lightbox-img-wrapper" id="lightbox-img-wrapper"><img src="" alt="" id="lightbox-img" class="lightbox-image" /></div>
+      <button class="lightbox-nav next-btn" id="next-btn" aria-label="Next certificate"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+    </div>
+    <div class="lightbox-footer">
+      <div class="lightbox-counter" id="lightbox-counter" aria-live="polite"></div>
+      <div class="lightbox-dots" id="lightbox-dots" role="tablist" aria-label="Certificate navigation"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Back to top -->
+<button class="back-to-top" id="back-to-top" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg></button>
+
+<script src="js/script.js?v=2"></script>
+</body>
+</html>
