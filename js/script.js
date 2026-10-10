@@ -30,12 +30,6 @@ const CERTIFICATES = [
     alt: 'Simplilearn SkillUp Introduction to Cyber Security Certificate — Sonu Yadav, Code 10689960'
   },
   {
-    src: 'assets/images/certificates/unified-mentor-cyber-security.png',
-    title: 'Cyber Security Professional Certificate',
-    org: 'Unified Mentor',
-    alt: 'Unified Mentor Cyber Security Professional Certificate — Sonu Yadav, completed 25 August 2026'
-  },
-  {
     src: 'assets/images/certificates/tutedude-ethical-hacking.png',
     title: 'Ethical Hacking Course',
     org: 'Tutedude',
