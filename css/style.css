@@ -1669,50 +1669,6 @@ code { font-family: var(--font-mono); font-size: 0.85em; color: var(--accent-cya
 
 .resume-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 
-.resume-preview-wrapper {
-  max-width: 650px;
-  margin: 32px auto 0;
-  text-align: center;
-}
-.resume-preview-link {
-  display: block;
-  position: relative;
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  border: 1px solid var(--border);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
-  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-  background: var(--bg-card);
-}
-.resume-preview-link:hover {
-  transform: translateY(-5px);
-  border-color: var(--accent-cyan);
-  box-shadow: 0 20px 50px rgba(0, 212, 255, 0.15);
-}
-.resume-preview-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.resume-preview-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(10, 15, 30, 0.65);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1.05rem;
-  gap: 10px;
-  backdrop-filter: blur(2px);
-}
-.resume-preview-link:hover .resume-preview-overlay {
-  opacity: 1;
-}
-
 /* ======================== CONTACT SECTION ======================== */
 .contact-section { background: var(--bg-secondary); }
 
