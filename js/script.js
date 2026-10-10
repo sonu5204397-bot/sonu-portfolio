@@ -34,6 +34,18 @@ const CERTIFICATES = [
     title: 'Cyber Security Professional Certificate',
     org: 'Unified Mentor',
     alt: 'Unified Mentor Cyber Security Professional Certificate — Sonu Yadav, completed 25 August 2026'
+  },
+  {
+    src: 'assets/images/certificates/tutedude-ethical-hacking.png',
+    title: 'Ethical Hacking Course',
+    org: 'Tutedude',
+    alt: 'Tutedude Ethical Hacking Course Certificate — Sonu Yadav, completed 6 October 2026, ID TD-SONU-EH-1504'
+  },
+  {
+    src: 'assets/images/certificates/tutedude-python.png',
+    title: 'Python Course',
+    org: 'Tutedude',
+    alt: 'Tutedude Python Course Certificate — Sonu Yadav, completed 3 October 2026, ID TD-SONU-PY-1736'
   }
 ];
 

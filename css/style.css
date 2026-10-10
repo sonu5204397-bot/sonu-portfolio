@@ -514,7 +514,7 @@ code { font-family: var(--font-mono); font-size: 0.85em; color: var(--accent-cya
 }
 
 .contact-link-github:hover {
-    color: white !important;
+    color: rgb(232, 227, 227) !important;
     text-decoration: none;
 }
 
