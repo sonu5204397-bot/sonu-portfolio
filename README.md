@@ -36,7 +36,7 @@
 
 ### 👨‍💻 About Me
 
-> 💬 *"The quieter you become, the more you are able to hear."*
+
 
 Hi! I'm **Sonu Yadav**, a BCA student and passionate **Cybersecurity enthusiast**. I have completed a formal **Cybersecurity Training Program from Tutedude** and I am actively exploring ethical hacking methodologies, offensive security tooling, and defensive security measures.
 
@@ -107,20 +107,7 @@ Hi! I'm **Sonu Yadav**, a BCA student and passionate **Cybersecurity enthusiast*
 
 ---
 
-### 📊 GitHub Activity & Metrics
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sonu5204397-bot&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&title_color=00F2FE&icon_color=00FF66&text_color=94a3b8&bg_color=0d1117" alt="Sonu's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonu5204397-bot&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&title_color=00F2FE&text_color=94a3b8&bg_color=0d1117" alt="Top Languages" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sonu5204397-bot&theme=tokyonight&hide_border=true&border_radius=12&background=0d1117&stroke=00F2FE&ring=00FF66&fire=FF0055" alt="GitHub Streak" />
-</div>
-
----
 
 ### 🚀 Live Project & Portfolio
 
