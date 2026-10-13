@@ -1,119 +1,171 @@
-# Sonu Yadav — Cybersecurity Portfolio
+<div align="center">
 
-Professional cybersecurity portfolio website for Sonu Yadav.
+  <!-- TOP ANIMATED GRADIENT BANNER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,30&height=220&section=header&text=Sonu%20Yadav&fontSize=62&fontColor=00FFCC&fontAlignY=38&desc=🛡️%20Cybersecurity%20Enthusiast%20%7C%20Penetration%20Testing%20%7C%20VAPT&descFontSize=20&descAlignY=62&descAlign=50" width="100%" alt="Sonu Yadav Banner" />
 
-**Live at:** Open `index.html` in a browser
+  <!-- ANIMATED TYPING SVG -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=false&width=650&height=50&lines=BCA+Student+%26+Cybersecurity+Enthusiast;VAPT+%26+Penetration+Testing+Learner;Certified+in+Cybersecurity+by+Tutedude;Exploring+Ethical+Hacking+%26+Web+Security;Offensive+%26+Defensive+Security+Learner" alt="Typing SVG" />
+  </a>
 
----
+  <br />
 
-## Folder Structure
+  <!-- QUICK ACTION BADGES -->
+  <a href="https://sonu5204397-bot.github.io/sonu-portfolio/">
+    <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Website-00F2FE?style=for-the-badge&labelColor=0d1117&logo=googlechrome&logoColor=00F2FE" alt="Live Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/sonu-yadav-489893413">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=0d1117&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+  </a>
+  <a href="mailto:sonu5204397@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Get_In_Touch-EA4335?style=for-the-badge&labelColor=0d1117&logo=gmail&logoColor=EA4335" alt="Email" />
+  </a>
 
-```
-/
-├── index.html                     ← Main HTML file
-├── css/
-│   └── style.css                  ← All styles
-├── js/
-│   └── script.js                  ← All JavaScript
-├── assets/
-│   ├── images/
-│   │   ├── profile.jpg            ← ADD YOUR PROFILE PHOTO HERE
-│   │   └── certificates/
-│   │       ├── tutedude-cyber-security.png
-│   │       ├── tutedude-linux.png
-│   │       ├── simplilearn-cyber-security.png
-│   │       ├── unified-mentor-cyber-security.png
-│   │       ├── tdo-cyber-webinar.png
-│   │       └── vbyld-2027.png
-│   └── icons/
-└── README.md
-```
+  <br /><br />
 
----
+  <!-- SPECIALIZATION HIGHLIGHT TAGS -->
+  <img src="https://img.shields.io/badge/🎯_VAPT-00F2FE?style=flat-square&labelColor=0d1117" alt="VAPT" />
+  <img src="https://img.shields.io/badge/⚔️_Ethical_Hacking-00FF66?style=flat-square&labelColor=0d1117" alt="Ethical Hacking" />
+  <img src="https://img.shields.io/badge/🔍_Penetration_Testing-FF0055?style=flat-square&labelColor=0d1117" alt="Penetration Testing" />
+  <img src="https://img.shields.io/badge/🛡️_Network_Security-7928CA?style=flat-square&labelColor=0d1117" alt="Network Security" />
+  <img src="https://img.shields.io/badge/🌐_Web_Security-FFB800?style=flat-square&labelColor=0d1117" alt="Web Security" />
 
-## Setup Instructions
-
-### Step 1 — Add Profile Photo
-Place your professional portrait at:
-```
-assets/images/profile.jpg
-```
-
-### Step 2 — Add Certificate Images
-Place your certificate images in:
-```
-assets/images/certificates/
-```
-Use these exact filenames:
-- `tutedude-cyber-security.png`
-- `tutedude-linux.png`
-- `simplilearn-cyber-security.png`
-- `unified-mentor-cyber-security.png`
-- `tdo-cyber-webinar.png`
-- `vbyld-2027.png`
-
-### Step 3 — Add Resume
-Place your resume PDF at:
-```
-assets/resume/resume.pdf
-```
-Create the `assets/resume/` folder first.
-
-### Step 4 — Add GitHub Link
-When you have your GitHub URL, search for `placeholder-btn` and `Coming Soon` in the HTML and replace with your actual GitHub URL.
-
-### Step 5 — Add Email Address
-In `index.html`, search for `Add your email address` and replace with your actual email. Also update the contact link icon section.
-
-### Step 6 — Enable Contact Form (Optional)
-The contact form is frontend-only. To receive emails:
-1. Sign up at [Formspree.io](https://formspree.io) (free tier available)
-2. Replace the form action or add Formspree endpoint in `js/script.js`
-3. Alternatively, use [EmailJS](https://emailjs.com)
+</div>
 
 ---
 
-## Sections Included
+### 👨‍💻 About Me
 
-1. **Hero** — Full-screen intro with profile photo, typed animation, and social links
-2. **About** — Background, education, and focus area cards
-3. **Skills** — Categorised skill tags across 6 domains
-4. **Tools** — 12 cybersecurity tool cards
-5. **Projects** — Filterable project cards with tech tags
-6. **Hands-on Practice** — 10 lab practice cards
-7. **Certifications** — 6 certificate cards with fullscreen lightbox viewer
-8. **Learning Journey** — 8-step vertical timeline
-9. **Resume** — Download section (PDF placeholder)
-10. **Contact** — Contact form + social links
-11. **Footer** — Brand, links, socials
+> 💬 *"The quieter you become, the more you are able to hear."*
+
+Hi! I'm **Sonu Yadav**, a BCA student and passionate **Cybersecurity enthusiast**. I have completed a formal **Cybersecurity Training Program from Tutedude** and I am actively exploring ethical hacking methodologies, offensive security tooling, and defensive security measures.
+
+- 🎓 **Education:** Pursuing **Bachelor of Computer Applications (BCA)**
+- 📜 **Certification:** Certified in **Cybersecurity** from **Tutedude**
+- 🎯 **Primary Focus:** **Vulnerability Assessment & Penetration Testing (VAPT)**, **Ethical Hacking**, and **Web Application Security**
+- 🔬 **Daily Routine:** Practicing network packet analysis, security scanning, Linux privilege exploration, and OWASP Top 10 vulnerabilities
+- 🚀 **Mission:** Continually upgrading hands-on skills in identifying and resolving security vulnerabilities to safeguard modern digital infrastructure
 
 ---
 
-## Customisation Notes
+### 🎯 Core Focus Areas
 
-- **Colors:** Edit CSS variables at the top of `css/style.css`
-- **Fonts:** Uses Inter + JetBrains Mono from Google Fonts
-- **Animations:** Adjust transition speeds in CSS `:root` variables
-- **Adding Projects:** Copy a `<article class="project-card">` block in the HTML
+<table>
+  <tr>
+    <td width="50%">
+      <h4 align="center">⚔️ Penetration Testing & VAPT</h4>
+      <ul>
+        <li>Vulnerability Assessment and Reporting</li>
+        <li>Network reconnaissance and port mapping</li>
+        <li>Web application flaws (OWASP Top 10)</li>
+        <li>Security misconfigurations & bypass analysis</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h4 align="center">🛡️ Defensive & Systems Security</h4>
+      <ul>
+        <li>Linux system administration & file permissions</li>
+        <li>Network traffic inspection & packet analysis</li>
+        <li>Firewall and service port auditing</li>
+        <li>Secure authentication & credential protection</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Technical Stack
+### 🛠️ Tech Arsenal & Badges
 
-- Pure HTML5 / CSS3 / Vanilla JavaScript
-- No frameworks, no build tools
-- No external scripts beyond Google Fonts
-- Mobile-responsive (works on all screen sizes)
+#### 🛡️ Cybersecurity & Pentesting Tools
+<p>
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" alt="Kali Linux" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+  <img src="https://img.shields.io/badge/Nmap-002B49?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap" />
+  <img src="https://img.shields.io/badge/Metasploit-11314B?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP" />
+</p>
+
+#### 💻 Operating Systems & Environments
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+  <img src="https://img.shields.io/badge/Bash_Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+</p>
+
+#### ⚡ Scripting & Web Technologies
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
 
 ---
 
-## Deploy
+### 📊 GitHub Activity & Metrics
 
-Works on any static hosting:
-- **GitHub Pages** — Push to a repo and enable Pages
-- **Netlify** — Drag and drop the folder
-- **Vercel** — Import from GitHub
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sonu5204397-bot&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&title_color=00F2FE&icon_color=00FF66&text_color=94a3b8&bg_color=0d1117" alt="Sonu's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonu5204397-bot&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&title_color=00F2FE&text_color=94a3b8&bg_color=0d1117" alt="Top Languages" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sonu5204397-bot&theme=tokyonight&hide_border=true&border_radius=12&background=0d1117&stroke=00F2FE&ring=00FF66&fire=FF0055" alt="GitHub Streak" />
+</div>
 
 ---
 
-© 2026 Sonu Yadav. All rights reserved.
+### 🚀 Live Project & Portfolio
+
+<table>
+  <tr>
+    <td width="60%">
+      <h3>🌐 Cybersecurity Portfolio Website</h3>
+      <p>My responsive personal cybersecurity portfolio featuring custom cyber terminal animations, cybersecurity skills matrix, hands-on lab projects, and verified training credentials.</p>
+      <p>
+        <a href="https://sonu5204397-bot.github.io/sonu-portfolio/">
+          <img src="https://img.shields.io/badge/🔗_Explore_Live-Visit_Site-00F2FE?style=for-the-badge&labelColor=0d1117" alt="Explore Live" />
+        </a>
+      </p>
+    </td>
+    <td width="40%" align="center">
+      <img src="https://img.shields.io/badge/Status-Live_%26_Active-00FF66?style=for-the-badge&labelColor=0d1117" alt="Status" />
+      <br /><br />
+      <img src="https://img.shields.io/badge/Host-GitHub_Pages-22272e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📬 Connect With Me
+
+<div align="center">
+
+  <a href="https://www.linkedin.com/in/sonu-yadav-489893413" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Sonu_Yadav-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:sonu5204397@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-sonu5204397@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/sonu5204397-bot" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-sonu5204397--bot-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+
+  <br /><br />
+
+  <!-- FOOTER ANIMATED GRADIENT WAVE -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30,24,12,2&height=100&section=footer" width="100%" alt="Footer Wave" />
+
+  <sub>Crafted with passion for Cybersecurity & Ethical Hacking 🔐</sub>
+
+</div>
