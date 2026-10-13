@@ -1,16 +1,16 @@
 <div align="center">
 
-  <!-- TOP ANIMATED GRADIENT BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,30&height=220&section=header&text=Sonu%20Yadav&fontSize=62&fontColor=00FFCC&fontAlignY=38&desc=🛡️%20Cybersecurity%20Enthusiast%20%7C%20Penetration%20Testing%20%7C%20VAPT&descFontSize=20&descAlignY=62&descAlign=50" width="100%" alt="Sonu Yadav Banner" />
+  <!-- TOP CYBERSECURITY DARK GRADIENT ANIMATED BANNER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:030712,25:0a192f,50:002b49,75:0a192f,100:030712&height=220&section=header&animation=twinkling&text=🛡️%20Sonu%20Yadav%20🛡️&fontSize=58&fontColor=00FF66&fontAlignY=38&desc=Cybersecurity%20Enthusiast%20%7C%20Penetration%20Testing%20%7C%20VAPT&descFontSize=20&descAlignY=62&descAlign=50" width="100%" alt="Sonu Yadav Cyber Banner" />
 
-  <!-- ANIMATED TYPING SVG -->
+  <!-- DYNAMIC ANIMATED TYPING HEADER -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=false&width=650&height=50&lines=BCA+Student+%26+Cybersecurity+Enthusiast;VAPT+%26+Penetration+Testing+Learner;Certified+in+Cybersecurity+by+Tutedude;Exploring+Ethical+Hacking+%26+Web+Security;Offensive+%26+Defensive+Security+Learner" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=false&width=700&height=50&lines=Hi%2C+I'm+Sonu+Yadav+%F0%9F%91%8B;BCA+Student+%26+Cybersecurity+Enthusiast;Penetration+Testing+%26+VAPT+Learner;Certified+in+Cybersecurity+by+Tutedude;Exploring+Ethical+Hacking+%26+Web+Security" alt="Typing SVG" />
   </a>
 
   <br />
 
-  <!-- QUICK ACTION BADGES -->
+  <!-- QUICK ACTION BUTTONS -->
   <a href="https://sonu5204397-bot.github.io/sonu-portfolio/">
     <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Website-00F2FE?style=for-the-badge&labelColor=0d1117&logo=googlechrome&logoColor=00F2FE" alt="Live Portfolio" />
   </a>
@@ -35,8 +35,6 @@
 ---
 
 ### 👨‍💻 About Me
-
-
 
 Hi! I'm **Sonu Yadav**, a BCA student and passionate **Cybersecurity enthusiast**. I have completed a formal **Cybersecurity Training Program from Tutedude** and I am actively exploring ethical hacking methodologies, offensive security tooling, and defensive security measures.
 
@@ -107,8 +105,6 @@ Hi! I'm **Sonu Yadav**, a BCA student and passionate **Cybersecurity enthusiast*
 
 ---
 
-
-
 ### 🚀 Live Project & Portfolio
 
 <table>
@@ -150,8 +146,8 @@ Hi! I'm **Sonu Yadav**, a BCA student and passionate **Cybersecurity enthusiast*
 
   <br /><br />
 
-  <!-- FOOTER ANIMATED GRADIENT WAVE -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30,24,12,2&height=100&section=footer" width="100%" alt="Footer Wave" />
+  <!-- MATCHING DARK CYBER GRADIENT FOOTER WAVE -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:030712,25:0a192f,50:002b49,75:0a192f,100:030712&height=100&section=footer" width="100%" alt="Footer Wave" />
 
   <sub>Crafted with passion for Cybersecurity & Ethical Hacking 🔐</sub>
 
